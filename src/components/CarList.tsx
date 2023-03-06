@@ -40,7 +40,7 @@ export const CarList = () => {
         );
       })
     ) : (
-      <h6 style={{ marginTop: '10px' }}>Fill form to add your cars list</h6>
+      <h6 style={{ marginTop: '20px' }}>Fill form to add your cars list</h6>
     );
 
   return <div className='car-list'>{renderedCars}</div>;
